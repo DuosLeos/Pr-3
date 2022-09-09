@@ -24,7 +24,7 @@ def solidCube():
 
 def main():
     pg.init()
-    display = (1680, 1050)
+    display = (1480, 850)
     pg.display.set_mode(display, DOUBLEBUF|OPENGL)
 
     gluPerspective(45, (display[0]/display[1]), 0.1, 50.0)
